@@ -19,4 +19,4 @@ jobs:
           yarn cache clean
           yarn install --network-concurrency 1
       - name: Running tests
-        run: yarn tests
+        run: yarn test
